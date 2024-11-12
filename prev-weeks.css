@@ -1,0 +1,121 @@
+.BigBro {
+  max-width: 1000px;
+  height: 600px;
+  margin: auto;
+  gap: 10%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.BigBro img {
+  width: 100%;
+  height: 100%;
+}
+.Column1 {
+  max-width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.WeeklyReport {
+  width: 100%;
+  height: 55%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.TechWorm {
+  width: 100%;
+  height: 35%;
+
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.TechWorm div {
+  width: 47.5%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Column2 {
+  max-width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.DoYouKnow {
+  max-width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.Free {
+  width: 100%;
+  height: 55%;
+
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.DoYouKnow div {
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.Free div {
+  width: 45%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+@media screen and (max-width: 900px) {
+  .BigBro {
+    display: block;
+  }
+  .Column2 {
+    margin: auto;
+    width: 100%;
+  }
+  .Column1 {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .BigBro {
+    display: block;
+  }
+  .Column2 {
+    margin: auto;
+    height: auto;
+  }
+  .Column1 {
+    margin: auto;
+    height: auto;
+  }
+  .TechWorm {
+    display: block;
+  }
+  .TechWorm div {
+    width: 100%;
+  }
+  .DoYouKnow {
+    display: block;
+  }
+  .DoYouKnow div {
+    width: 100%;
+  }
+  .Free {
+    display: block;
+  }
+  .Free div {
+    width: 100%;
+  }
+}

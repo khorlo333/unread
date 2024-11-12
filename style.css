@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fafafa;
+}
+header {
+  width: 90vw;
+  height: 85px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.BurgerMenu {
+  position: relative;
+  padding: 24px 30px;
+  left: 35px;
+  cursor: pointer;
+}
+.BurgerMenu .long {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  border-radius: 3px;
+}
+.BurgerMenu .short {
+  width: 17px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  border-radius: 3px;
+}
+.MagnifyingGlass {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-left: 1px white solid;
+  padding-left: 20px;
+  height: 25px;
+}
+.MagnifyingGlass svg {
+  width: 15px;
+  height: 15px;
+  fill: #ffffff;
+}
+.logo {
+  height: 18px;
+  margin-right: 50px;
+}
+.logo img {
+  height: 100%;
+  margin-left: 70px;
+  cursor: pointer;
+}
+header .next {
+  display: flex;
+  gap: 9px;
+  margin-right: 150px;
+  margin-left: 150px;
+  align-items: center;
+  color: rgb(255, 255, 255, 0.5);
+}
+.next .Tech {
+  color: #ffffff;
+  font-weight: 300;
+}
+header .next h6 {
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 55px;
+  padding: 10px;
+  cursor: pointer;
+}
+.next .dot {
+  height: 5px;
+  width: 5px;
+  background-color: rgb(25, 76, 215);
+  border-radius: 50%;
+  display: inline-block;
+}
+.Background {
+  width: 100vw;
+  height: 900px;
+  position: relative;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(3, 0, 0, 0.2987788865546218) 26%,
+      rgba(0, 0, 0, 1) 86%
+    ),
+    url("./aboutNewspaper.jpg");
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.Logos {
+  display: flex;
+  gap: 9px;
+}
+.Logos svg {
+  width: 20px;
+  height: 20px;
+  fill: gray;
+  cursor: pointer;
+}
+.Logos svg:hover {
+  fill: rgb(25, 152, 202);
+}
+.Logos .insta:hover {
+  fill: rgb(186, 57, 188);
+}
+.news-img {
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.news-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news-img:hover img {
+  transform: scale(1.1);
+}
+.Background .news {
+  position: absolute;
+  width: 1000px;
+  height: 400px;
+  z-index: 1;
+  display: flex;
+  left: 15vw;
+  top: 15vh;
+  color: #ffffff;
+  font-size: 24px;
+  gap: 5%;
+}
+.Background .news h5 {
+  color: blue;
+  font-size: medium;
+  padding: 20px 0px;
+}
+.Background .news h4 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  font-size: larger;
+  font-weight: 900;
+}
+.news h3 {
+  margin-bottom: 54px;
+  cursor: pointer;
+}
+.news .dot {
+  height: 5px;
+  width: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.news .author {
+  display: flex;
+}
+.news .authorIntro {
+  padding: 10px 5px;
+}
+.news .author p {
+  font-size: small;
+}
+.news .author h6 {
+  font-size: small;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.news .author h6:hover {
+  opacity: 1;
+}
+.news .author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 3px;
+}
+.news .author img:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 3px;
+}
+.newsArticle {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
