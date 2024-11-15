@@ -2,7 +2,7 @@
   max-width: 1000px;
   height: 600px;
   margin: auto;
-  gap: 10%;
+  /* gap: 5%; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -12,7 +12,7 @@
   height: 100%;
 }
 .Column1 {
-  max-width: 45%;
+  max-width: 47.5%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -21,11 +21,29 @@
   margin: auto;
 }
 
+.WeeklyReport .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.318);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
 .WeeklyReport .info {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.36);
   backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+  width: 100%;
+}
+.WeeklyReport p {
+  color: rgb(200, 200, 200);
 }
 .WeeklyReport {
   width: 100%;
@@ -48,11 +66,28 @@
   overflow: hidden;
   position: relative;
 }
+.TechWorm .AppSummary p {
+  color: rgb(200, 200, 200);
+}
+.TechWorm .AppSummary .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
 .TechWorm .AppSummary .info {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.36);
   backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
 }
 .TechWorm .TechNews {
   width: 47.5%;
@@ -61,14 +96,31 @@
   overflow: hidden;
   position: relative;
 }
+.TechWorm .TechNews p {
+  color: rgb(200, 200, 200);
+}
 .TechWorm .TechNews .info {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.36);
   backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.TechWorm .TechNews .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
 }
 .Column2 {
-  max-width: 45%;
+  max-width: 47.5%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -81,6 +133,27 @@
   display: flex;
   justify-content: space-around;
   overflow: hidden;
+  position: relative;
+}
+.DoYouKnow .aboutBooks .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.DoYouKnow .aboutBooks .info {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
 }
 .Free {
   width: 100%;
@@ -90,17 +163,101 @@
   justify-content: space-around;
   overflow: hidden;
 }
-.DoYouKnow div {
-  width: 45%;
-  height: 100%;
-  border-radius: 20px;
-  overflow: hidden;
+.DoYouKnow .aboutBooks p {
+  color: rgb(200, 200, 200);
 }
-.Free div {
+.DoYouKnow .aboutBooks {
   width: 45%;
-  height: 100%;
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
+}
+.DoYouKnow .Stable p {
+  color: rgb(200, 200, 200);
+}
+.DoYouKnow .Stable {
+  width: 45%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.DoYouKnow .Stable .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.DoYouKnow .Stable .info {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.Free .youKnow p {
+  color: rgb(200, 200, 200);
+}
+.Free .youKnow {
+  width: 45%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.Free .youKnow .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.Free .youKnow .info {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.Free .youKnow2 p {
+  color: rgb(200, 200, 200);
+}
+.Free .youKnow2 {
+  width: 45%;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.Free .youKnow2 .info .minut {
+  position: absolute;
+  top: 0;
+  margin-top: -10px;
+  right: 5px;
+  background-color: rgba(127, 127, 127, 0.818);
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
+}
+.Free .youKnow2 .info {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.36);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-size: small;
+  padding: 5px;
 }
 @media screen and (max-width: 900px) {
   .BigBro {
